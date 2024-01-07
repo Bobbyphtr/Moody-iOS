@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A8F443C2B497D3900E1991E /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F443B2B497D3900E1991E /* Date+Extension.swift */; };
+		8A8F443F2B4A736B00E1991E /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F443E2B4A736B00E1991E /* RecordView.swift */; };
+		8A8F44412B4A7F5200E1991E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F44402B4A7F5200E1991E /* LaunchScreen.storyboard */; };
 		8ABA459A2B45B7CD00B26D1D /* MoodyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA45992B45B7CD00B26D1D /* MoodyApp.swift */; };
 		8ABA459C2B45B7CD00B26D1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA459B2B45B7CD00B26D1D /* ContentView.swift */; };
 		8ABA459E2B45B7CE00B26D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABA459D2B45B7CE00B26D1D /* Assets.xcassets */; };
@@ -14,6 +17,8 @@
 		8ABA45AC2B45B7CF00B26D1D /* MoodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA45AB2B45B7CF00B26D1D /* MoodyTests.swift */; };
 		8ABA45B62B45B7CF00B26D1D /* MoodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA45B52B45B7CF00B26D1D /* MoodyUITests.swift */; };
 		8ABA45B82B45B7CF00B26D1D /* MoodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA45B72B45B7CF00B26D1D /* MoodyUITestsLaunchTests.swift */; };
+		8ABA45C62B45B84100B26D1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA45C52B45B84100B26D1D /* HomeView.swift */; };
+		8ABA45C92B45BAA100B26D1D /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA45C82B45BAA100B26D1D /* Memory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A8F443B2B497D3900E1991E /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		8A8F443E2B4A736B00E1991E /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		8A8F44402B4A7F5200E1991E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ABA45962B45B7CD00B26D1D /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABA45992B45B7CD00B26D1D /* MoodyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyApp.swift; sourceTree = "<group>"; };
 		8ABA459B2B45B7CD00B26D1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,8 @@
 		8ABA45B12B45B7CF00B26D1D /* MoodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABA45B52B45B7CF00B26D1D /* MoodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyUITests.swift; sourceTree = "<group>"; };
 		8ABA45B72B45B7CF00B26D1D /* MoodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8ABA45C52B45B84100B26D1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8ABA45C82B45BAA100B26D1D /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A8F443A2B497D1B00E1991E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F443B2B497D3900E1991E /* Date+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8A8F443D2B4A734D00E1991E /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F443E2B4A736B00E1991E /* RecordView.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
 		8ABA458D2B45B7CD00B26D1D = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +125,11 @@
 				8ABA459B2B45B7CD00B26D1D /* ContentView.swift */,
 				8ABA459D2B45B7CE00B26D1D /* Assets.xcassets */,
 				8ABA45A22B45B7CE00B26D1D /* Moody.entitlements */,
+				8A8F44402B4A7F5200E1991E /* LaunchScreen.storyboard */,
+				8ABA45C42B45B82B00B26D1D /* Home */,
+				8A8F443D2B4A734D00E1991E /* Record */,
+				8ABA45C72B45BA8F00B26D1D /* Memories */,
+				8A8F443A2B497D1B00E1991E /* Utilities */,
 				8ABA459F2B45B7CE00B26D1D /* Preview Content */,
 			);
 			path = Moody;
@@ -127,6 +158,22 @@
 				8ABA45B72B45B7CF00B26D1D /* MoodyUITestsLaunchTests.swift */,
 			);
 			path = MoodyUITests;
+			sourceTree = "<group>";
+		};
+		8ABA45C42B45B82B00B26D1D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA45C52B45B84100B26D1D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8ABA45C72B45BA8F00B26D1D /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA45C82B45BAA100B26D1D /* Memory.swift */,
+			);
+			path = Memories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8F44412B4A7F5200E1991E /* LaunchScreen.storyboard in Resources */,
 				8ABA45A12B45B7CE00B26D1D /* Preview Assets.xcassets in Resources */,
 				8ABA459E2B45B7CE00B26D1D /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8F443C2B497D3900E1991E /* Date+Extension.swift in Sources */,
+				8A8F443F2B4A736B00E1991E /* RecordView.swift in Sources */,
+				8ABA45C92B45BAA100B26D1D /* Memory.swift in Sources */,
+				8ABA45C62B45B84100B26D1D /* HomeView.swift in Sources */,
 				8ABA459C2B45B7CD00B26D1D /* ContentView.swift in Sources */,
 				8ABA459A2B45B7CD00B26D1D /* MoodyApp.swift in Sources */,
 			);
@@ -425,6 +477,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -432,8 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xentech.Moody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -452,6 +510,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -459,8 +519,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xentech.Moody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
